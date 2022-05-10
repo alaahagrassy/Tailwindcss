@@ -1,0 +1,63 @@
+.slide{
+    height: 660px  !important;
+}
+.ovellay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 132px;
+    background-color: rgba(53, 57, 61, 0.9);
+    width: 100%;
+    padding-right: 50px;
+    color: white
+}
+.btn-link{
+    border-style: solid;
+    font-size: 12px;
+    border-width: 3px;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    border-color: rgb(171, 139, 101);
+    position: relative;
+    top: 42px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+}
+.btn-link:hover{
+    background-color: rgb(171,139,101)
+}
+.MainColor{
+    color: rgb(148,122,91)
+}
+.arrwo{
+    filter: brightness(0) invert(1) !important;
+}
+.heeader-color{
+    background-color: rgb(33, 37, 41)
+}
+.header-text{
+    font-size: 14.4px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 40px 16px 40px 16px;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    background: transparent;
+}
+
+.img-logo{
+    transform: scale(1.4);
+    transform-origin: center center;
+    position: relative;
+    z-index: 1;
+}
+.Header-hover:hover{
+  color: rgb(171,139,101) ;
+}
